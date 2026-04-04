@@ -14,7 +14,7 @@ but lowering the TTL for all domains is only possible via the http.net API.
   $targetIp = "<server-ip>"
   $newTtl = 300 # 5 minutes or whatever is needed
   $testDomain = "<test-domain>" # add one test domain to try.
-4. run the script. It will only change TTL for the testDomain.
+4. run the script in Windows poershell or Powershell 7. It will only change TTL for the testDomain.
 5. Uncomment the final block at the bottom of the script to iterate over all domains in your account pointing to <server-ip>.
 
 # Example output
