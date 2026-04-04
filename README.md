@@ -1,5 +1,5 @@
 # http.net-API-bulk-changes
-powershell script to bulk change some values (TTL for mow) for http.net clients. Useful for Server / IP-Change.
+powershell script to bulk change some values (TTL only for now) for http.net clients. Useful for Server / IP-Change.
 
 For a server switch with DNS-Zones hosted at https://http.net I needed to bulk change the TTL of all A-records.
 The frontend at https://partner.http.net/dns/ allows bulk content change via https://partner.http.net/dns/zones/content-change
